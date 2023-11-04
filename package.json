@@ -1,5 +1,5 @@
 {
-	"name": "harrypottercharacters",
+	"name": "harrypotterscharacters",
 	"version": "1.0.0",
 	"description": "Muestra los personajes de Harry Potter extrayendo datos desde una api",
 	"main": "index.html",
