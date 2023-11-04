@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous"
+		/>
+		<!-- Estilos personalizados -->
+		<link rel="stylesheet" href="css/index.css" />
+
+		<title>Listado de Personajes de Harry Potter</title>
+	</head>
+
+	<body style="background-color: rgb(19, 26, 48)">
+		<h1 class="mb-5 text-center text-secondary fw-bold">
+			Personajes de Harry Potter
+		</h1>
+
+		<h4 id="showAllCharactersContainer" class="showAllCharactersContainer">
+			<a
+				class="showAllCharacters text-opacity-75 fw-bold m-3 mb-5"
+				href="index.html"
+				>Mostrar todos los personajes</a
+			>
+		</h4>
+
+		<div id="search"></div>
+
+		<div
+			id="characters"
+			class="d-flex justify-content-evenly flex-wrap"
+		></div>
+
+		<!-- Bootstrap -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Se le agrega type="module" para poder utilizar modulos del archivo js -->
+		<script type="module" src="js/index.js"></script>
+	</body>
+</html>

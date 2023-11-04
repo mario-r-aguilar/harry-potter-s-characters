@@ -1,0 +1,20 @@
+{
+	"name": "harrypottercharacters",
+	"version": "1.0.0",
+	"description": "Muestra los personajes de Harry Potter extrayendo datos desde una api",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"api",
+		"javascript",
+		"css",
+		"html",
+		"bootstrap",
+		"responsive",
+		"promises"
+	],
+	"author": "Mario Aguilar",
+	"license": "ISC"
+}

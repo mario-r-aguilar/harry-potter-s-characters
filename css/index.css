@@ -1,0 +1,61 @@
+a {
+	text-decoration: none;
+}
+
+.showAllCharactersContainer {
+	display: none;
+}
+
+.showAllCharacters {
+	color: rgba(0, 255, 221, 0.719) !important;
+}
+
+.showAllCharacters:hover {
+	color: rgba(0, 166, 255, 0.719) !important;
+}
+
+.showAllCharacters:active {
+	color: rgba(255, 255, 255, 0.233) !important;
+}
+
+.card {
+	perspective: 1000px;
+	cursor: pointer;
+}
+
+.card-inner {
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s;
+	transform-style: preserve-3d;
+}
+
+.card:active .card-inner {
+	transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, 0.911);
+	color: rgba(169, 169, 169, 0.699);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+}
+
+.card-front {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-back {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transform: rotateY(180deg);
+}
