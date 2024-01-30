@@ -1,8 +1,13 @@
-# Harry Potter's Characters Web
+# Harry Potter's Characters
 
-## Descripción
+## Objetivo
 
-Se trata de una página web que **muestra los personajes más significativos de**
+Practicar los conocimientos adquiridos en los Cursos de Desarrollo Web y Javascript.
+**LINK:** https://harry-potters-characters.netlify.app/
+
+### Descripción
+
+Se trata de una página web que **muestra personajes de**
 **la saga de Harry Potter** e información sobre ellos.
 La página obtiene dicha información desde la api: https://hp-api.onrender.com/
 
